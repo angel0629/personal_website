@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(244, 237, 227);
+}
+#header h1{
+    text-align: center;
+    font-size:50px;
+    background-image: url('img/sumikko.PNG');
+    background-position: center 380px;
+}
+
+#container {
+    width: 75%;
+    margin: 0px auto; /*上下 左右*/
+    /* background: url(img/bg.png) repeat-y center;
+    position:relative;
+    padding: 20px */
+}
+#content{
+    float:left;
+    width: 80%;
+}
+#content h2{
+    background-color: #4a69bd;
+    color: #fff; 
+    text-indent: 12px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+#content table{
+    width: 100%;
+    text-align: center;
+    border-color: #4a69bd;
+    border-style: dotted;
+    border-width: 5px;
+}
+#content li{
+    color: #4a69bd;
+    font-weight: bold;
+}
+#content ul li ul li{
+    color: #000;
+    font-weight: lighter;
+}
+/*Spotify*/
+.spotify{
+    text-decoration: none;
+    background-color: #000;
+    color: #1ed760;
+}
+.spotify:hover{
+    background-color: #1ed760;
+    color: #000;
+    text-decoration: underline;
+}
+
+/*link1*/
+#link1 h3{
+    background-color:lightblue;
+    text-align: center;
+    display: inline-block;
+    padding: 3px;
+    margin:10px;
+}
+#link1 p{
+    font-size: 16px;
+    text-indent: 2em;
+    margin: auto 2em;
+}
+/*link2*/
+#link2 ul{
+    list-style:upper-roman
+}
+#link2 li{
+    font-weight: bold;
+    font-size: 18px;
+    color: #4a69bd;
+}
+#link2 p{
+    font-size: 16px;
+}
+/*link3*/
+#link3 table{
+    border-style:dashed;
+    width:100%;
+}
+#link3 table tr:nth-of-type(even) {
+    background-color: #d1d8e0;
+}
+#link3 a{
+    text-decoration:none;
+    color: #4a69bd;
+    background-color: #fff;
+}
+#link3 a:hover{
+    background-color: #4a69bd;
+    color: #fff;
+    text-decoration: underline;
+}
+/*link4*/
+#link4 table{
+    border-style:none;
+}
+
+#vmenu {
+    background-color: #d1d8e0;
+    width: 12%;
+    text-decoration:none;
+    padding: 10px;
+    position:fixed;
+    /* position:relative; */
+    top: 140px; 
+    right:13%;
+    border-radius: 10px;
+}
+#vmenu h2{
+    text-align: center;
+    color:#4a69bd;
+    margin-bottom: 0px;
+}
+#vmenu ul{
+    list-style-type:square;
+}
+.list-appear{
+    display: none;
+}
+#vmenu a{
+    background-color: #fff; 
+    color:#4a69bd;
+    text-decoration:none;
+}
+#vmenu li:hover {
+    background-color: #4a69bd; 
+    color:#fff;
+    text-decoration:underline;
+}
+#vmenu li:hover .list-appear {
+    display:block;
+    list-style-type:none
+}
+
+.left{
+    text-align: left;
+}
