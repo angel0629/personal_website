@@ -24,8 +24,10 @@ body{
     color: #fff; 
     text-indent: 12px;
     border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     padding: 10px;
+    margin: 20px auto;
+    letter-spacing: 5px;
 }
 #content table{
     width: 100%;
@@ -41,6 +43,10 @@ body{
 #content ul li ul li{
     color: #000;
     font-weight: lighter;
+}
+#content td img{
+    width: 150px;
+    background-color: #4a69bd;
 }
 /*Spotify*/
 .spotify{
@@ -84,6 +90,18 @@ body{
     border-style:dashed;
     width:100%;
 }
+#link3 tr:nth-of-type(1){
+    background-color: #88c8e4;
+    color: #fff;
+}
+#link3 table td:nth-of-type(1)
+ {
+    width:25%;
+}
+#link3 table td:nth-of-type(4)
+ {
+    width:20%;
+}
 #link3 table tr:nth-of-type(even) {
     background-color: #d1d8e0;
 }
@@ -98,17 +116,70 @@ body{
     text-decoration: underline;
 }
 /*link4*/
+#link4{
+    background-color:#8d9fcfaf
+}
 #link4 table{
     border-style:none;
 }
+#contact ul{
+    list-style:none;
+    background-color: #4a69bd;
+} 
+#contact{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size:20px;
+}
+#contact > li{
+    display: inline-block; 
+    position: relative;
+    cursor: pointer;
+    margin: 0 1em;
+}
+#link4  .list-appear{
+    display: none;   
+    position: absolute; 
+    top: 22px; 
+    left: 0px;
+    padding-left: 0;
+    text-align: left;
+}
+#link4  li, #link4 a{
+    background-color: #fff;
+    color: #4a69bd;
+}
+#link4 li:hover, #link4 a:hover{
+    background-color: #4a69bd;
+    color: #fff;
+}
+#link4 .list-appear {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    text-align: left;
+    background-color: #fff;
+}
+#link4 li:hover .list-appear {
+    display:block;
+}
 
+#contact-pix{
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
+}
+#contact-pix img{
+    width:110px;
+}
 #vmenu {
     background-color: #d1d8e0;
     width: 12%;
     text-decoration:none;
     padding: 10px;
     position:fixed;
-    /* position:relative; */
     top: 140px; 
     right:13%;
     border-radius: 10px;
@@ -118,9 +189,11 @@ body{
     color:#4a69bd;
     margin-bottom: 0px;
 }
-#vmenu ul{
-    list-style-type:square;
+ul.iconc {
+  list-style-image: url(img/icon.png);
+  font-size: 18px;
 }
+
 .list-appear{
     display: none;
 }
@@ -141,4 +214,55 @@ body{
 
 .left{
     text-align: left;
+}
+.line-through{
+    text-decoration:line-through;
+}
+#Hamilton{
+    background-color: antiquewhite;
+}
+#Hamilton h3{
+    background-color: #764800;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-indent:5px;
+}
+#Hamilton p{
+    font-size: 16px;
+    text-indent: 2em;
+}
+
+.italic{
+    font-style: italic;
+}
+
+
+/*recommend*/
+.button-style{
+    background-color:#d1d8e0;
+    color:#000;
+    font-size: 20px;
+    border-style:dotted;
+    border-radius: 50%;
+    height:150px;
+    width:150px;
+    position:fixed;
+    top: 200px; 
+    right:13%;
+    
+}
+.button-style:hover{
+    background-image:url(/img/sumikko_one.PNG);
+    border-style:double;
+    box-shadow: 10px 10px 10px gray; 
+}
+
+.pix img{
+    height:230px;
+    border-radius: 10px;
+}
+.pix img:hover{
+    border-style:double;
+    box-shadow: 10px 10px 10px gray; 
 }
