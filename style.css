@@ -180,7 +180,7 @@ body{
     text-decoration:none;
     padding: 10px;
     position:fixed;
-    top: 140px; 
+    top: 190px;
     right:13%;
     border-radius: 10px;
 }
@@ -237,6 +237,188 @@ ul.iconc {
     font-style: italic;
 }
 
+/* Blue-toned retro refinements for the home page. */
+.home-page{
+    color: #29364c;
+    background-color: #e9eef6;
+    font-family: "Times New Roman", "標楷體", serif;
+    line-height: 1.8;
+}
+.home-page #header h1{
+    color: #263b70;
+    padding: 22px 18px;
+    border-bottom: 3px double #4a69bd;
+    text-shadow: 2px 2px 0 #fff;
+}
+.home-page #content > table{
+    border-color: #405f9f;
+    border-style: dotted;
+    background-color: #f7f9fc;
+    box-shadow: 5px 5px 0 rgba(74, 105, 189, .14);
+}
+.home-page #content > table td{
+    padding: 14px;
+}
+.home-page #content > table .italic{
+    color: #405f9f;
+    line-height: 1.9;
+}
+.home-page #content h2{
+    color: #fff;
+    background: #405f9f;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-left: 5px dotted #dce5f3;
+    letter-spacing: 3px;
+    box-shadow: 3px 3px 0 rgba(38, 59, 112, .15);
+}
+.home-page #content hr{
+    border: 0;
+    border-top: 2px dotted #91a5ca;
+    margin: 14px 0 22px;
+}
+.home-page #link1,
+.home-page #link2,
+.home-page #link3,
+.home-page #recommend,
+.home-page #link4{
+    margin: 26px 0;
+    padding: 12px 16px 20px;
+    border: 1px dashed #9aadd0;
+    background: rgba(249, 251, 255, .78);
+    box-shadow: 4px 4px 0 rgba(74, 105, 189, .1);
+}
+.home-page #link1 h3{
+    color: #263b70;
+    background: #dce5f3;
+    border-bottom: 2px dotted #6e86b5;
+}
+.home-page #link1 p,
+.home-page #link2 p,
+.home-page #Hamilton p{
+    color: #343f52;
+    line-height: 2;
+}
+.home-page #content li{
+    line-height: 1.9;
+}
+.home-page a{
+    color: #345697;
+    transition: color .18s ease, background-color .18s ease;
+}
+.home-page a:hover{
+    color: #172f70;
+}
+.home-page .spotify{
+    color: #1ed760;
+    padding: 1px 5px;
+    border: 1px dotted #4a69bd;
+    background: #f2f7f2;
+}
+.home-page .spotify:hover{
+    color: #000;
+    background: #1ed760;
+    text-decoration: underline;
+}
+.home-page #link3 table{
+    border-color: #526fa9;
+    background: #f7f9fc;
+}
+.home-page #link3 th,
+.home-page #link3 td{
+    padding: 10px;
+    border: 1px dotted #9aadd0;
+}
+.home-page #link3 tr:nth-of-type(1){
+    background: #405f9f;
+}
+.home-page #link3 table tr:nth-of-type(even){
+    background: #e5ebf5;
+}
+.home-page #link3 a{
+    padding: 2px 4px;
+    background: #fff;
+}
+.home-page #link3 a:hover{
+    color: #fff;
+    background: #405f9f;
+}
+.home-page #Hamilton{
+    padding: 0 14px 16px;
+    border: 1px dotted #764800;
+    background: antiquewhite;
+}
+.home-page #Hamilton h3{
+    margin: 0 -14px 12px;
+    padding: 8px 14px;
+    color: #fff;
+    background: #764800;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.home-page #link1 > h2,
+.home-page #link2 > h2,
+.home-page #link3 > h2,
+.home-page #link4 > h2,
+.home-page #recommend > h2{
+    border-left: 0;
+}
+.home-page #contact > li{
+    padding: 5px 9px;
+    border: 1px dotted #9aadd0;
+    background: #fff;
+}
+.home-page #link4 .list-appear{
+    z-index: 1;
+    min-width: 220px;
+    padding: 6px 10px;
+    border: 1px dotted #526fa9;
+    box-shadow: 3px 3px 0 rgba(38, 59, 112, .16);
+}
+.home-page #link4 li,
+.home-page #link4 a{
+    background: #fff;
+}
+.home-page #link4 li:hover,
+.home-page #link4 a:hover{
+    color: #fff;
+    background: #405f9f;
+}
+.home-page #contact-pix img{
+    filter: drop-shadow(2px 2px 0 rgba(38, 59, 112, .22));
+}
+.home-page #vmenu{
+    outline: 1px dotted #526fa9;
+    background: #dce5f3;
+    box-shadow: 4px 4px 0 rgba(38, 59, 112, .18);
+}
+.home-page #vmenu h2{
+    color: #405f9f;
+}
+.home-page #vmenu a{
+    color: #263b70;
+    background: #fff;
+}
+.home-page #vmenu li:hover{
+    color: #fff;
+    background: #405f9f;
+}
+.home-page #vmenu li:hover a{
+    color: #fff;
+    background: #405f9f;
+}
+.home-page #vmenu .list-appear{
+    padding-left: 16px;
+    border: 1px dotted #526fa9;
+    background: #dce5f3;
+    box-shadow: 3px 3px 0 rgba(38, 59, 112, .16);
+}
+.home-page #vmenu .list-appear li{
+    padding: 2px 6px;
+}
+.home-page #vmenu .list-appear a{
+    background: transparent;
+}
 
 /*recommend*/
 .button-style{
