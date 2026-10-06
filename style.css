@@ -448,3 +448,52 @@ ul.iconc {
     border-style:double;
     box-shadow: 10px 10px 10px gray; 
 }
+
+/* Match the photo gallery to the blue retro homepage styling. */
+.gallery-page{
+    color: #29364c;
+    background-color: #e9eef6;
+    font-family: "Times New Roman", "標楷體", serif;
+    line-height: 1.8;
+}
+.gallery-page #header h1{
+    color: #263b70;
+    padding: 22px 18px;
+    border-bottom: 3px double #4a69bd;
+    text-shadow: 2px 2px 0 #fff;
+}
+.gallery-page .pix h2{
+    color: #fff;
+    background: #405f9f;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    letter-spacing: 3px;
+    box-shadow: 3px 3px 0 rgba(38, 59, 112, .15);
+}
+.gallery-page #content hr{
+    border: 0;
+    border-top: 2px dotted #91a5ca;
+}
+.gallery-page .pix img{
+    border: 1px solid #9aadd0;
+    border-radius: 4px;
+    box-shadow: 3px 3px 0 rgba(74, 105, 189, .14);
+}
+.gallery-page .pix img:hover{
+    border: 2px dotted #405f9f;
+    box-shadow: 5px 5px 0 rgba(38, 59, 112, .2);
+}
+.gallery-page .button-style{
+    color: #263b70;
+    background: #dce5f3;
+    border: 2px dotted #526fa9;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0 rgba(38, 59, 112, .18);
+    top: 300px;
+}
+.gallery-page .button-style:hover{
+    color: #fff;
+    background: #405f9f;
+    border: 2px double #263b70;
+    box-shadow: 5px 5px 0 rgba(38, 59, 112, .25);
+}
