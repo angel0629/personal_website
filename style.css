@@ -459,6 +459,7 @@ ul.iconc {
 .gallery-page #header h1{
     color: #263b70;
     padding: 22px 18px;
+    background-position: center 440px;
     border-bottom: 3px double #4a69bd;
     text-shadow: 2px 2px 0 #fff;
 }
